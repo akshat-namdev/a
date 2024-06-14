@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <title>Course Purchase Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(1, 24, 24);">
+    <nav class="navbar bg-body-tertiary" style="padding: 0.5%; background-color: rgb(1, 24, 24);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: rgb(255, 254, 254); font-size: xx-large;">
+            <img src="LOGO.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top" >
+            CourseMaster
+          </a>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0.5cm; background-color: rgb(53, 95, 95);">
+        <div class="container-fluid">
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="text-size-adjust: 54;">
+                    <li class="nav-item"style="padding-inline: 2cm;" >
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: rgb(255, 255, 255);">Home</a>
+                    </li>
+                    <!-- <li class="nav-item"style="padding-inline: 2cm;">
+                        <a class="nav-link" href="#" style="color: rgb(255, 252, 252);"></a>
+                    </li> -->
+
+
+
+                    
+
+                    <li>
+                    <div class="dropdown" style="padding-right: 1cm;" >
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                    
+                        <ul class="dropdown-menu" style="background-color: rgb(237, 246, 246); border-radius: 2rem; border-color: aliceblue; ">
+                        <li style="text-decoration-color: aliceblue;"><a class="dropdown-item" href="#programming">Programming</a></li>
+                        <li><a class="dropdown-item" href="#communication">Communication Skills</a></li>
+                        <li><a class="dropdown-item" href="#datanalysis">Data Analatics</a></li>
+                        <li><a class="dropdown-item" href="#aiml">AI/ML</a></li>
+                        <li><a class="dropdown-item" href="#cloud">Cloud Infrastructure</a></li>
+                        <li><a class="dropdown-item" href="#">DataBase</a></li>
+                        <li><a class="dropdown-item" href="#">WebDev</a></li>
+                        </ul>
+                    </div>
+                    </li>
+
+
+
+                        <li>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="padding-inline: 5cm;">
+                                <button class="btn btn-outline-success" type="submit" onclick="" style="text-align: left;">Search</button>
+                            </form>
+                        </li>
+
+
+
+                    
+                        <li class="nav-item"style="padding-inline: 1cm; float:right;">
+                            <a class="nav-link" href="#" style="color: rgb(255, 252, 252);">Sign Up</a>
+                        </li>
+                        
+                        <li class="nav-item"style="padding-inline: 1cm; float: right;" >
+                            <a class="nav-link" href="#" style="color: rgb(255, 252, 252);">LogIn</a>
+                        </li>
+
+                        <li class="nav-item"style="padding-inline: 1cm; float: right;" >
+                          <a class="nav-link" href="#" style="color: rgb(255, 252, 252);">Profile</a>
+                      </li>
+                </ul>
+            
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" id="buy">
+        <!-- <div class="course-details">
+            <img src="Pybanner.jpg" alt="" width="720px" height="250px" class="imagenew">
+            <h1>Learn Python Programming</h1>
+            <p>Master Python with this comprehensive course. Learn from scratch and become proficient in Python programming.</p>
+            <div class="list">
+                <ul>
+                    <li>Instructor: Jane Doe</li>
+                    <li>Duration: 20 hours</li>
+                    <li>Level: Beginner to Advanced</li>
+                    <li>Language: English</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="purchase-info">
+            <div class="price">$19.99</div>
+            <button class="buy-now">Buy Now</button>
+            <div class="payment-options">
+                <p>Payment Options:</p>
+                <img src="visa.png" alt="Visa">
+                <img src="mastercard.png" alt="MasterCard">
+                <img src="paypal.png" alt="PayPal">
+            </div>
+        </div> -->
+    </div>
+</body>
+
+
+
+
+
+<!-- <script>
+    url = `https://api.github.com/users`
+    fetch(url)
+    .then(res => res.json())
+    .then(res => {
+        console.table(res)
+        output=''
+        for(i=0;i<=29;i++){
+            output = output +`<tr>
+                <td>${res[i]['id']}</td>
+                <td>${res[i]['login']}</td>
+                <td>
+                    <img width ='100px' src="${res[i]['avatar_url']}">
+                </td>
+
+            </tr>`
+
+        }
+        // output =`<tr>
+        //         <td>${res[0]['id']}</td>
+        //         <td>${res[0]['login']}</td>
+        //     </tr>`
+            document.getElementById('users').innerHTML = output
+            
+    })
+</script> -->
+<script>
+    url = `http://127.0.0.1:5500/ip%20project/courses.json`
+    fetch(url)
+    .then(res => res.json())
+    .then(res => {
+        console.table(res)
+
+
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//             const globalVariable = localStorage.getItem('globalVariable');
+//             console.log('Global variable value:', globalVariable); // Debugging step
+
+//             if (globalVariable !== null) {
+//                 // Use the globalVariable in your JavaScript code as needed
+//                 console.log(`The stored global variable is: ${globalVariable}`);
+//                 // For example, you can use it to fetch data or display information on the page
+//             } else {
+//                 console.log('No value found in localStorage.');
+//             }
+//         });
+//         a = globalVariable
+
+
+
+
+// // Retrieve the passed value from session storage
+// var passedValue = sessionStorage.getItem('passedValue');
+
+// // Use the passed value as needed
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Retrieve the passed value from session storage
+    var passedValue = sessionStorage.getItem('passedValue');
+    
+    // Log to verify retrieved value
+    console.log('Passed value:', passedValue);
+});
+
+
+// function getUrlParameter(name) {
+//             name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+//             var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+//             var results = regex.exec(location.search);
+//             return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+//         };
+        
+//         // Retrieve the passed value from URL parameter
+//         var passedValue = getUrlParameter('passedValue');
+        
+//         // Use the passed value as needed
+//         console.log('Passed value:', passedValue);
+
+
+//  // Function to retrieve URL parameters
+//  function getUrlParameter(name) {
+//             name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+//             var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+//             var results = regex.exec(location.search);
+//             return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+//         };
+        
+//         // Retrieve the passed value from URL parameter
+//         var passedValue = getUrlParameter('passedValue');
+        
+//         // Use the passed value as needed
+//         console.log('Passed value:', passedValue);
+
+        
+
+
+
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('id');
+        
+        index = myParam 
+
+        //alert(index)
+        
+            output = `<div  class="course-details">
+                                <img src="${res[index]['img']}" alt="" width="720px" height="250px" class="imagenew">
+                                <br>
+                                <h1 float="center"><strong>${res[index]['name']}</strong></h1>
+                                <br>
+                                <p><h5>${res[index]['detail']}</h5></p>
+                                <div class="list"><strong><h6>
+                                    <ul float ="right" style="padding="6rem">
+                                        <li>Instructor: ${res[index]['creator']}</li>
+                                        <li>Duration: ${res[index].cource[0].time}</li>
+                                        <li>${res[index].cource[0].resources}</li>
+                                        <li>Language: ${res[index]['language']}</li>
+                                        <li>Access: ${res[index].cource[0].access}</li>
+                                        <li>Trainer:${res[index]['creator']}</li>
+                                        
+                                        
+                                    </ul></h6>
+                                        </strong>
+                                    
+
+                                </div>
+                                <br>
+                        
+                                <div>
+                                    <h5>CONTENT</h5>
+                                    <h6>
+                                        <ul>
+                                                <li>${res[0].content[0].one}</li>
+                                                <li>${res[0].content[0].two}</li>
+                                                <li>${res[0].content[0].three}</li>
+                                                <li>${res[0].content[0].four}</li>
+                                                <li>${res[0].content[0].five}</li>
+                                        </ul>
+
+                                    </h6>
+
+
+                                    
+                                </div>
+                
+                                
+                            </div>
+                            <div class="purchase-info">
+                                <div class="price">TOTAL AMOUNT:${res[0]['price']}</div>
+                                <button class="buy-now">Buy Now</button>
+                                <div class="payment-options">
+                                    <p>Payment Options:</p>
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/Visa-Logo-2006.png" alt="Visa">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT569fkloFhLOT4ZuYq4mUlfP64rQ4HHKjCA&s" alt="MasterCard">
+                                    <img src="https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png" alt="PayPal">
+                                </div>
+                            </div>
+                        </div>`
+                    
+
+
+            document.getElementById('buy').innerHTML = output
+
+
+    
+
+            sessionStorage.removeItem('passedValue');
+     })
+</script> 
+
+
+</html>

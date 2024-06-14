@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <title>CourseMaster</title>
+</head>
+<body style="background-color: rgb(1, 24, 24);">
+    <nav class="navbar bg-body-tertiary" style="padding: 0.5%; background-color: rgb(1, 24, 24);">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: rgb(255, 254, 254); font-size: xx-large;">
+            <img src="LOGO.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top" >
+            CourseMaster
+          </a>
+        </div>
+    </nav>
+
+
+    
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0.5cm; background-color: rgb(53, 95, 95);">
+        <div class="container-fluid">
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="text-size-adjust: 54;">
+                    <li class="nav-item"style="padding-inline: 2cm;" >
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: rgb(255, 255, 255);">Home</a>
+                    </li>
+                    <!-- <li class="nav-item"style="padding-inline: 2cm;">
+                        <a class="nav-link" href="#" style="color: rgb(255, 252, 252);"></a>
+                    </li> -->
+
+
+
+                    
+
+                    <li>
+                    <div class="dropdown" style="padding-right: 1cm;" >
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                    
+                        <ul class="dropdown-menu" style="background-color: rgb(237, 246, 246); border-radius: 2rem; border-color: aliceblue; ">
+                        <li style="text-decoration-color: aliceblue;"><a class="dropdown-item" href="#programming">Programming</a></li>
+                        <li><a class="dropdown-item" href="#communication">Communication Skills</a></li>
+                        <li><a class="dropdown-item" href="#datanalysis">Data Analatics</a></li>
+                        <li><a class="dropdown-item" href="#aiml">AI/ML</a></li>
+                        <li><a class="dropdown-item" href="#cloud">Cloud Infrastructure</a></li>
+                        <li><a class="dropdown-item" href="#">DataBase</a></li>
+                        <li><a class="dropdown-item" href="#">WebDev</a></li>
+                        </ul>
+                    </div>
+                    </li>
+
+
+
+                        <li>
+                            <form class="d-flex" role="search">
+                                <input id="search" class="form-control me-2" type="search" placeholder="Search Course....." aria-label="Search" style="padding-inline: 5cm;">
+                                <button class="btn btn-outline-success" type="submit" onclick="search()" style="text-align: left;" >Search</button>
+                            </form>
+                        </li>
+
+
+
+                    
+                        <li class="nav-item"style="padding-inline: 1cm; float:right;">
+                            <a class="nav-link" href="#" style="color: rgb(255, 252, 252);">Sign Up</a>
+                        </li>
+                        
+                        <li class="nav-item"style="padding-inline: 1cm; float: right;" >
+                            <a class="nav-link" href="#" style="color: rgb(255, 252, 252);">LogIn</a>
+                        </li>
+
+                        <li class="nav-item"style="padding-inline: 1cm; float: right;" >
+                          <a class="nav-link" href="#" style="color: rgb(255, 252, 252);">Profile</a>
+                      </li>
+                </ul>
+            
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar bg-body-tertiary" style="padding: 0.5%; background-color: rgb(1, 24, 24);">
+        <div class="container-fluid">
+        </div>
+    </nav>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>CHECK OUT OUR SPECIAL DEALS!</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+    
+
+
+
+      <div id="" class="row" style="padding:0.5% ">
+                
+      </div>
+
+
+
+
+
+
+      <h3 id="scrollspyHeading1" style="text-align: center; background-color: rgb(244, 197, 110);padding: 0.5%;text-decoration-color: azure; border-bottom: 1%;">UP COMMINGS COURSES!</h3>
+
+
+
+
+
+
+
+
+
+
+        
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="active"
+          aria-current="true"aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="active"
+          aria-current="true" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: fit-content;">
+          <div class="carousel-item active" data-bs-interval="10000" >
+            
+
+
+
+
+            <div id="card1" class="row" style="padding:0.5% ">
+                
+            </div>
+    
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: #080808;"></h5>
+              <p style="color: #040404;"></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+
+
+
+
+
+
+
+
+
+
+
+            <div id="card2" class="row" style="padding:0.5% ; ">
+                
+              </div>
+            
+
+
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5 ></h5>
+              <p>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+
+
+
+
+
+
+
+
+
+
+            <div id="card3" class="row" style="padding:0.5% ">
+                
+              </div>
+    
+        
+
+              <h5 style="color: #090909;"></h5>
+              <p style="color: #161616;"></p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+      <h3 id="programming" style="text-align: center; background-color: rgb(244, 197, 110);padding: 0.5%;text-decoration-color: azure; border-bottom: 1%;">PROGRAMMING</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="active"
+          aria-current="true"aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="active"
+          aria-current="true" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: fit-content;">
+          <div class="carousel-item active" data-bs-interval="1000" >
+            
+            
+
+
+
+
+            <div id="progra1" class="row" style="padding:0.5% ">
+                
+              </div>
+    
+
+
+
+
+
+
+
+
+
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: #080808;"></h5>
+              <p style="color: #040404;"></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+
+
+
+
+
+            <div id="progra2" class="row" style="padding:0.5% ">
+                
+            </div>
+
+
+
+            
+            
+
+
+
+            <div class="carousel-caption d-none d-md-block">
+              <h5 ></h5>
+              <p>
+            </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+
+
+
+            <div id="progra3" class="row" style="padding:0.5% ">
+                
+            </div>
+            
+
+
+
+              <h5 style="color: #090909;"></h5>
+              <p style="color: #161616;"></p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+<!--      
+        <div class="row" >
+             <div class="col cakecol" style="text-align: center;">
+            <div class="p-3 border "style="">
+                <div class="container-fluid">
+                    <div class="card" style="padding : 3cm ; text-align: center;">
+                        <img src="" class="card-img-top" alt="..." >
+                        <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+
+            
+        
+        
+            <div class="col cakecol">
+            <div class="p-3 border " style="width:fit-content; background-color:  rgb(53, 95, 95);">
+                <div class="container-fluid">
+                    <div class="card" style="width: 18rem;text-align: center;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col cakecol">
+                <div class="p-3 border " style="width:fit-content">
+                    <div class="container-fluid">
+                        <div class="card" style="width: 18rem;text-align: center;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body" style="text-align: center;">
+                            <h5 class="card-title" >Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col cakecol" >
+                    <div class="p-3 border " style="width:fit-content">
+                        <div class="container-fluid">
+                            <div class="card" style="width: 18rem;text-align: center;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body" style="text-align: center;">
+                                <h5 class="card-title" >Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+             -->
+        
+        
+
+    
+
+
+
+             <!-- <h3 id="cloud" style="text-align: center; background-color: rgb(244, 197, 110);padding: 0.5%;text-decoration-color: azure; border-bottom: 1%;">CLOUD INFRASTRUCTURE</h3>
+
+
+
+        
+        
+        <div class="row" style="padding:0.5% ; ">
+          <div class="col cakecol">
+            <div class="d-flex flex-row mb-3">
+            <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+              <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                <img src="PYTHON.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">PYTHON FOR BEGINNERS....</h5>
+                  <p class="card-text">While we strive to maintain efficiency in our service, we never compromise on quality. Your order is prepared with precision, taking into account any special requests or dietary preferences you may have indicated.</p>
+                  <a href="#" class="btn btn-primary">BUY NOW...!</a>
+                </div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col cakecol">
+            <div class="d-flex flex-row mb-3">
+            <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                <img src="java.jpg"class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">JAVA PROGRAMMING</h5>
+                  <p class="card-text">While we strive to maintain efficiency in our service, we never compromise on quality. Your order is prepared with precision, taking into account any special requests or dietary preferences you may have indicated..</p>
+                  <a href="#" class="btn btn-primary">BUY NOW...!</a>
+                </div></div>
+              </div>
+            </div>
+          </div>
+          <div class="col cakecol">
+            <div class="d-flex flex-row mb-3">
+            <div class="p-3 border " style="background-color:  rgb(53, 95, 95); border:5rem ;" >
+                <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                <img src="c_plus.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="text-align: center;">
+                  <h5 class="card-title">C++ PROGRAMMING</h5>
+                  <p class="card-text">While we strive to maintain efficiency in our service, we never compromise on quality. Your order is prepared with precision, taking into account any special requests or dietary preferences you may have indicated.</p>
+                  <a href="#" class="btn btn-primary">BUY NOW...!</a>
+                </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+ -->
+
+
+
+
+
+        <h3 id="communication" style="text-align: center; background-color: rgb(244, 197, 110);padding: 0.5%;text-decoration-color: azure; border-bottom: 1%;">COMMUNICATION SKILLS</h3>
+
+
+
+        <div id="comm" class="row" style="padding:0.5% ">
+            
+          </div>
+
+
+
+
+
+
+
+
+        
+        <h3 id="datanalysis" style="text-align: center; background-color: rgb(244, 197, 110);padding: 0.5%;text-decoration-color: azure; border-bottom: 1%;">DATA ANALYTICS</h3>
+
+
+
+        <div id="data" class="row" style="padding:0.5% ">
+            
+          </div>
+
+
+
+
+
+        <h3 id="aiml" style="text-align: center; background-color: rgb(244, 197, 110);padding: 0.5%;text-decoration-color: azure; border-bottom: 1%;">AI/ML</h3>
+
+        <div id="ai" class="row" style="padding:0.5% ">
+          
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<script>
+  url = `http://127.0.0.1:5500/ip%20project/courses.json`
+  fetch(url)
+  .then(res => res.json())
+  .then(res => {
+      console.table(res)
+      card1=''
+    for(let i=0;i<3;i++){
+          card1 = card1 +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="1" ><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW.!!!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+
+      }
+          document.getElementById('card1').innerHTML = card1
+
+
+          card2=''
+    for(let i=3;i<6;i++){
+          card2 = card2 +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}" ><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+
+      }
+          document.getElementById('card2').innerHTML = card2
+
+
+          card3='m'
+    for(let i=6;i<9;i++){
+          card3 = card3 +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}" ><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+
+      }
+          document.getElementById('card3').innerHTML = card3
+
+        
+          progra1=''
+          count = 0
+    for(let i=0;i<=23;i++){
+        if(res[i]['category'] == 'Programming'){
+          progra1 = progra1 +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('progra1').innerHTML = progra1
+
+
+
+          progra2=''
+          count = 0
+    for(let i=3;i<=23;i++){
+        if(res[i]['category'] == 'Programming'){
+          progra2 = progra2 +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('progra2').innerHTML = progra2
+
+
+
+          progra3=''
+          count = 0
+    for(let i=0;i<=23;i++){
+        if(res[i]['category'] == 'Programming'){
+          progra3 = progra3 +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('progra3').innerHTML = progra3
+
+
+
+
+
+          comm=''
+          count = 0
+    for(let i=0;i<=13;i++){
+        if(res[i]['category'] == 'Communication Skills'){
+          comm = comm +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"  ><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('comm').innerHTML = comm
+
+
+
+
+          data=''
+          count = 0
+    for(let i=0;i<=23;i++){
+        if(res[i]['category'] == 'Data Analytics'){
+          data = data +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"  ><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('data').innerHTML = data
+
+
+
+
+
+
+          ai=''
+          count = 0
+    for(let i=0;i<=23;i++){
+        if(res[i]['category'] == 'AI/ML'){
+          ai = ai +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"  ><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('ai').innerHTML = ai
+
+
+
+
+
+
+
+          function search(){
+        name =document.getElementById("search").value
+        result=''
+          count = 0
+    for(let i=0;i<=13;i++){
+        if(res[i]['name'] == 'name'){
+          result = result +`<div class="col cakecol">
+                  <div class="p-3 border " style="background-color:  rgb(53, 95, 95); " >
+                    <div class="card" style="width: 18rem;text-align: center;width:fit-content">
+                      <img src="${res[i]['img']}" class="card-img-top" alt="..."width="720px" height="250px">
+                      <div class="card-body" style="text-align: center;">
+                        <h5 class="card-title" >${res[i]['name']}</h5>
+                        <p class="card-text">${res[i]['detail']}</p>
+                        <button class="saveButton" value="${i}"><a href="buy_page.html?id=${i}" class="btn btn-primary">BUY NOW...!</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                `
+                count = count+1
+            }
+            if(count == 3)
+                break;
+
+      }
+          document.getElementById('result').innerHTML = result
+        
+        
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     document.getElementById('saveButton').addEventListener('click', function() {
+//         const buttonValue = this.value; // Get the value of the button
+//         console.log('Button value:', buttonValue); // Debugging step
+//         localStorage.setItem('globalVariable', buttonValue);
+//         window.location.href = 'buy_ex.html';
+//     });
+// });
+
+
+
+
+      // Add event listeners to all buttons with class saveButton
+      // document.querySelectorAll('.saveButton').forEach(button => {
+      //   button.addEventListener('click', function() {
+      //     const buttonValue = this.getAttribute('data-value');
+      //     sessionStorage.setItem('globalVariable', buttonValue);
+      //     window.location.href = 'buy_ex.html';
+      //   });
+      // });
+
+
+
+//       document.getElementById('saveButton').addEventListener('click', function() {
+//     // Get the value of the button
+//     var valueToPass = this.value;
+    
+//     // Store the value in session storage
+//     sessionStorage.setItem('passedValue', valueToPass);
+// });
+
+
+
+// document.getElementById('myButton').addEventListener('click', function() {
+//             // Get the value of the button
+//             var valueToPass = this.value;
+            
+//             // Store the value in session storage
+//             sessionStorage.setItem('passedValue', valueToPass);
+
+//             console.log('Stored value:', valueToPass);
+            
+//             // Navigate to the next page
+//             window.location.href = 'buy_page.html';
+//         });
+
+
+ // Function to handle button clicks
+ document.querySelectorAll('.saveButton').forEach(button => {
+            button.addEventListener('click', function() {
+                // Get the value of the clicked button
+                var valueToPass = this.value;
+                
+                // Construct the URL with the parameter
+                var nextPageUrl = 'buy_page.html.html?passedValue=' + encodeURIComponent(valueToPass);
+                
+                // Navigate to the next page
+                window.location.href = 'buy_page.html';
+            });
+        });
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+          
+          
+  })
+
+
+</script> 
+
+
+
+</html>

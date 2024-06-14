@@ -1,0 +1,653 @@
+[
+    {
+        "id": 1,
+        "name": "PYTHON FOR BEGINNERS",
+        "price": "$3500/-",
+        "category": "Programming",
+        "detail": "Welcome to the 100 Days of Code - The Complete Python Pro Bootcamp, the only course you need to learn to code with Python. With over 500,000 5 STAR reviews and a 4.8 average, my courses are some of the HIGHEST RATED courses in the history of Udemy!",
+        "creator": "Dr.Anjali Sharma",
+        "language": "English",
+        "cource": [
+            {
+                "time": "12 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "Basic Programming",
+                "two": "Loops",
+                "three": "Conditional Statements",
+                "four": "Functions",
+                "five": "DSA"
+            }
+        ],
+        "img": "https://c4.wallpaperflare.com/wallpaper/544/77/284/programming-programming-language-python-programming-logo-hd-wallpaper-preview.jpg"
+    },
+    {
+        "id": 2,
+        "name": "DSA USING JAVA",
+        "price": "$450/-",
+        "category": "Programming",
+        "detail": "You may be new to Data Structure or you have already Studied and Implemented Data Structures but still you feel you need to learn more about Data Structure in detail so that it helps you solve challenging problems and used Data Structure efficiently.",
+        "creator": "HARSH JETHWA",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "54 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "BIG O",
+                "two": "CLASSES & POINTERS",
+                "three": "LINKED LIST",
+                "four": "STACK AND QUEUES",
+                "five": "TREE"
+            }
+        ],
+        "img": "https://www.desktopbackground.org/download/o/2011/01/01/135274_java-programmer-wallpapers_1280x1024_h.jpg"
+    },
+    {
+        "id": 3,
+        "name": "DSA USING C++",
+        "price": "$349/-",
+        "category": "Programming",
+        "detail": "You may be new to Data Structure or you have already Studied and Implemented Data Structures but still you feel you need to learn more about Data Structure in detail so that it helps you solve challenging problems and used Data Structure efficiently.",
+        "creator": "HARSH JETHWA",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "50 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "BIG O",
+                "two": "CLASSES & POINTERS",
+                "three": "LINKED LIST",
+                "four": "STACK AND QUEUES",
+                "five": "TREE"
+            }
+        ],
+        "img": "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4087150%2Fcover_image%2Fretina_500x200%2Fcover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-f6055ebd7fd2dcf631141dc5acc0f8b5.png"
+    },
+    {
+        "id": 4,
+        "name": "HTML & CSS",
+        "price": "$550/-",
+        "category": "Programming",
+        "detail": "You may be new to Data Structure or you have already Studied and Implemented Data Structures but still you feel you need to learn more about Data Structure in detail so that it helps you solve challenging problems and used Data Structure efficiently.",
+        "creator": "DEV MEHTA",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "87 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "HTML FUNDAMENTALS",
+                "two": "CSS FUNDAMENTALS",
+                "three": "LAYOUT",
+                "four": "WEB DESIGN & FRAMEWORKS",
+                "five": "MINI PROJECT"
+            }
+        ],
+        "img": "https://i.pinimg.com/originals/60/15/c3/6015c3a5a0df39f14972cfe17ca1019d.jpg"
+    },
+    {
+        "id": 5,
+        "name": "ENGLISH FOR PROFICIENCY - ZERO TO HERO IN ENGLISH",
+        "price": "$399/-",
+        "category": "Communication Skills",
+        "detail": "This course will fix all those problems. This has been one of the top  English courses for many years, and that is because I care about my students. The course is updated every month and run by me, Professor KRISHA BHANUSHALI.",
+        "creator": "KRISHA BHANUSHALI",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "49 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "A QUICK REVIEW",
+                "two": "BASIC GRAMMAR",
+                "three": "ADVANCED GRAMMAR",
+                "four": "PRONUNCIATION",
+                "five": "QUIZ"
+            }
+        ],
+        "img": "https://i.ytimg.com/vi/xNhILN6ajd0/maxresdefault.jpg"
+    },
+    {
+        "id": 6,
+        "name": "BUSINESS COMMUNICATION SKILLS: Business Writing & Grammar",
+        "price": "$99",
+        "category": "Communication Skills",
+        "detail": "This course will fix all those problems. This has been one of the top  English courses for many years, and that is because I care about my students. The course is updated every month and run by me, Professor MANOJ PATEL.",
+        "creator": "MANOJ PATEL",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "40 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "BASIC GRAMMAR FOR BUSINESS",
+                "two": "FIXING COMMON WORD CHOICE",
+                "three": "AI TO ENHANCE WRITING",
+                "four": "BROADENING VOCAB",
+                "five": "TEST"
+            }
+        ],
+        "img": "https://img.freepik.com/free-vector/hand-drawn-business-communication-concept_23-2149171107.jpg"
+    },
+    {
+        "id": 7,
+        "name": "THE ENGLISH MASTER COURSE: English Grammar & Formal Language",
+        "price": "$39",
+        "category": "Communication Skills",
+        "detail": "Learn to Speak with an American or British Accent: Try the new English pronunciation and accent section.500+ new interactive Quiz Questions for Grammar, IELTS, TOEFL added: Practice and upgrade exam scores.",
+        "creator": "DR. HEENAL SALOT",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "64 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "HOW ENGLISH WORKS?",
+                "two": "GRAMMAR SECTION",
+                "three": "WRITING SKILLS",
+                "four": "SPEAKING SKILLS",
+                "five": "QUIZ"
+            }
+        ],
+        "img": "https://www.fpacademy.co.in/blog/wp-content/uploads/2022/09/How-to-Learn-English-Speaking-at-Home-960x540-1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "LOGIC BUILDING IN PYTHON",
+        "price": "$12",
+        "category": "Programming",
+        "detail": "This course will fix all those problems. This has been one of the top  English courses for many years, and that is because I care about my students. The course is updated every month and run by me, Professor PRAJWAL MAHAJAN",
+        "creator": "PRAJWAL MAHAJAN",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "90 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "BASIC PROGRAMMING",
+                "two": "DATA STRUCTURES",
+                "three": "TEST",
+                "four": "DSA",
+                "five": "TEST"
+            }
+        ],
+        "img": "https://www.seedprogramming.org/wp-content/uploads/2024/03/1.-Introduction-to-Logic-Building-Python.webp"
+    },
+    {
+        "id": 9,
+        "name": "THE ENGLISH MASTER COURSE: English Grammar, English Speaking",
+        "price": "$39",
+        "category": "Communication Skills",
+        "detail": "Learn to Speak with an American or British Accent: Try the new English pronunciation and accent section.500+ new interactive Quiz Questions for Grammar, IELTS, TOEFL added: Practice and upgrade exam scores.",
+        "creator": "DR. HEENAL SALOT",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "64 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "146 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "HOW ENGLISH WORKS?",
+                "two": "GRAMMAR SECTION",
+                "three": "WRITING SKILLS",
+                "four": "SPEAKING SKILLS",
+                "five": "QUIZ"
+            }
+        ],
+        "img": "https://e0.pxfuel.com/wallpapers/734/875/desktop-wallpaper-english-language-training-digital-revolution-thumbnail.jpg"
+    },
+    {
+        "id": 10,
+        "name": "EFFECTIVE COMMUNICATION STRATEGIES",
+        "price": "$129",
+        "category": "Communication Skills",
+        "detail": "This course provides practical techniques for improving your communication skills. Learn how to effectively communicate in both personal and professional environments.",
+        "creator": "JANE DOE",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "20 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "50 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "INTRODUCTION TO COMMUNICATION",
+                "two": "VERBAL COMMUNICATION",
+                "three": "NON-VERBAL COMMUNICATION",
+                "four": "LISTENING SKILLS",
+                "five": "CONFLICT RESOLUTION"
+            }
+        ],
+        "img": "https://example.com/effective-communication.jpg"
+    },
+    {
+        "id": 11,
+        "name": "ADVANCED PUBLIC SPEAKING",
+        "price": "$199",
+        "category": "Communication Skills",
+        "detail": "Enhance your public speaking skills with this comprehensive course. Learn techniques to engage your audience and deliver powerful presentations.",
+        "creator": "JOHN SMITH",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "30 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "70 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "PREPARING YOUR SPEECH",
+                "two": "DELIVERY TECHNIQUES",
+                "three": "ENGAGING YOUR AUDIENCE",
+                "four": "HANDLING Q&A",
+                "five": "OVERCOMING NERVOUSNESS"
+            }
+        ],
+        "img": "https://example.com/advanced-public-speaking.jpg"
+    },
+    {
+        "id": 12,
+        "name": "INTRODUCTION TO CLOUD COMPUTING",
+        "price": "$99",
+        "category": "Cloud Computing",
+        "detail": "This course introduces you to the fundamentals of cloud computing. Understand different cloud models, services, and their applications.",
+        "creator": "ALICE JOHNSON",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "25 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "60 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "CLOUD COMPUTING BASICS",
+                "two": "SERVICE MODELS",
+                "three": "DEPLOYMENT MODELS",
+                "four": "CLOUD SECURITY",
+                "five": "CASE STUDIES"
+            }
+        ],
+        "img": "https://example.com/introduction-to-cloud-computing.jpg"
+    },
+    {
+        "id": 13,
+        "name": "AWS CERTIFICATION TRAINING",
+        "price": "$399",
+        "category": "Cloud Computing",
+        "detail": "Prepare for the AWS Certified Solutions Architect exam with this comprehensive training. Learn about AWS services and how to design scalable applications.",
+        "creator": "BOB WILLIAMS",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "40 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "100 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "AWS OVERVIEW",
+                "two": "COMPUTE SERVICES",
+                "three": "STORAGE SERVICES",
+                "four": "NETWORKING SERVICES",
+                "five": "SECURITY SERVICES"
+            }
+        ],
+        "img": "https://example.com/aws-certification-training.jpg"
+    },
+    {
+        "id": 14,
+        "name": "MICROSOFT AZURE FUNDAMENTALS",
+        "price": "$299",
+        "category": "Cloud Computing",
+        "detail": "Learn the fundamentals of Microsoft Azure. Understand Azure services, architecture, and how to deploy applications on Azure.",
+        "creator": "CAROLINE BROWN",
+        "language": "ENGLISH",
+        "cource": [
+            {
+                "time": "35 hours on-demand video",
+                "exercise": "Assignments",
+                "access": "Full lifetime access",
+                "resources": "80 downloadable resources"
+            }
+        ],
+        "content": [
+            {
+                "one": "AZURE OVERVIEW",
+                "two": "AZURE SERVICES",
+                "three": "AZURE STORAGE",
+                "four": "AZURE NETWORKING",
+                "five": "AZURE SECURITY"
+            }
+        ],
+        "img": "https://example.com/microsoft-azure-fundamentals.jpg"
+    },
+    
+    {
+            "id": 15,
+            "name": "DATA ANALYTICS WITH PYTHON - BASIC TO ADVANCE",
+            "price": "$299",
+            "category": "Data Analytics",
+            "detail": "Learn data analytics using Python. This course covers data manipulation, visualization, and basic statistical analysis.A great way to start your Analytics journey",
+            "creator": "SARA LEE",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "30 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "100 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "PYTHON BASICS",
+                    "two": "DATA MANIPULATION",
+                    "three": "DATA VISUALIZATION",
+                    "four": "STATISTICAL ANALYSIS",
+                    "five": "CASE STUDIES"
+                }
+            ],
+            "img": "https://www.cdmi.in/courses@1x/data-science.webp"
+        },
+        {
+            "id": 16,
+            "name": "ADVANCED DATA ANALYSIS WITH PYTHON FOR NON IT PEOPLE",
+            "price": "$399",
+            "category": "Data Analytics",
+            "detail": "Master data analysis with R. This course covers advanced data manipulation techniques, visualization, and statistical modeling.",
+            "creator": "MARK DAVIS",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "40 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "120 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "R BASICS",
+                    "two": "DATA MANIPULATION",
+                    "three": "DATA VISUALIZATION",
+                    "four": "STATISTICAL MODELING",
+                    "five": "CASE STUDIES"
+                }
+            ],
+            "img": "https://solutionsreview.com/data-management/files/2020/10/Big-Data-Courses.jpg"
+        },
+        {
+            "id": 17,
+            "name": "DATA VISUALIZATION WITH TABLEAU AND MANY OTHER",
+            "price": "$199",
+            "category": "Data Analytics",
+            "detail": "Learn to create interactive data visualizations with Tableau. This course covers the fundamentals of Tableau and advanced visualization techniques.",
+            "creator": "JULIA SMITH",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "20 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "70 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "TABLEAU BASICS",
+                    "two": "DATA CONNECTIONS",
+                    "three": "CALCULATIONS AND EXPRESSIONS",
+                    "four": "DASHBOARDS",
+                    "five": "STORYTELLING"
+                }
+            ],
+            "img": "https://dssd.in/blogs/wp-content/uploads/2024/02/image.png"
+        },
+        {
+            "id": 18,
+            "name": "SQL FOR DATA ANALYSIS",
+            "price": "$149",
+            "category": "Data Analytics",
+            "detail": "Master SQL for data analysis. This course covers the basics of SQL, advanced queries, and data manipulation techniques.",
+            "creator": "JOHN DOE",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "25 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "80 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "SQL BASICS",
+                    "two": "ADVANCED QUERIES",
+                    "three": "DATA MANIPULATION",
+                    "four": "DATA CLEANING",
+                    "five": "CASE STUDIES"
+                }
+            ],
+            "img": "https://blog.turingcollege.com/content/images/2024/04/DALL-E-2024-04-09-14.51.59---Generate-a-landscape-image-of-a-person-sitting-at-a-desk--learning-data-analytics-online.-The-desk-is-cluttered-with-books--papers--and-a-laptop-showi-1.webp"
+        },
+        {
+            "id": 19,
+            "name": "EXCEL FOR DATA ANALYSIS",
+            "price": "$99",
+            "category": "Data Analytics",
+            "detail": "Learn data analysis with Excel. This course covers the basics of Excel, data manipulation, and advanced analysis techniques.",
+            "creator": "EMMA WATSON",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "15 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "60 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "EXCEL BASICS",
+                    "two": "DATA MANIPULATION",
+                    "three": "FORMULAS AND FUNCTIONS",
+                    "four": "PIVOT TABLES",
+                    "five": "DATA VISUALIZATION"
+                }
+            ],
+            "img": "https://www.infosecinstitute.com/contentassets/881f8c09f36e4c2b90b8456f3218c7d7/informationsecuritymanager.jpg"
+        },
+        {
+            "id": 20,
+            "name": "MACHINE LEARNING WITH PYTHON",
+            "price": "$299",
+            "category": "AI/ML",
+            "detail": "Learn ML with Python. This course covers supervised and unsupervised learning, and hands-on projects.",
+            "creator": "DR. MICHAEL BROWN",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "35 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "100 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "INTRODUCTION TO MACHINE LEARNING",
+                    "two": "SUPERVISED LEARNING",
+                    "three": "UNSUPERVISED LEARNING",
+                    "four": "MODEL EVALUATION",
+                    "five": "PROJECTS"
+                }
+            ],
+            "img": "https://media.licdn.com/dms/image/C4D12AQEpT9a_XdqA7g/article-cover_image-shrink_720_1280/0/1585033916081?e=2147483647&v=beta&t=nXfP6LqngGp8a0EdQVHKwg1fQmZuCzlMdqPcZ-jhDMc"
+        },
+        {
+            "id": 21,
+            "name": "DEEP LEARNING WITH TENSORFLOW",
+            "price": "$399",
+            "category": "AI/ML",
+            "detail": "Master deep learning with TensorFlow. This course covers neural networks, CNNs, RNNs, and practical projects.",
+            "creator": "DR. ALICE SMITH",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "40 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "120 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "INTRODUCTION TO DEEP LEARNING",
+                    "two": "NEURAL NETWORKS",
+                    "three": "CONVOLUTIONAL NETWORKS",
+                    "four": "RECURRENT NETWORKS",
+                    "five": "PROJECTS"
+                }
+            ],
+            "img": "https://ischoolonline.berkeley.edu/wp-content/uploads/sites/37/2021/01/4430_whatismachinelearning_hero.jpg?w=768"
+        },
+        {
+            "id": 22,
+            "name": "ARTIFICIAL INTELLIGENCE FOR BEGINNERS",
+            "price": "$199",
+            "category": "AI/ML",
+            "detail": "Learn the basics of artificial intelligence. This course covers AI concepts, algorithms, and practical applications.",
+            "creator": "DR. JOHN WATSON",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "30 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "90 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "INTRODUCTION TO AI",
+                    "two": "AI ALGORITHMS",
+                    "three": "MACHINE LEARNING",
+                    "four": "NATURAL LANGUAGE PROCESSING",
+                    "five": "PROJECTS"
+                }
+            ],
+            "img": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/22606/images/87a4632-824-a763-c8ce-e62d8b2b5a6_top-deep-learning-frameworks.jpeg"
+        },
+        {
+            "id": 23,
+            "name": "NATURAL LANGUAGE PROCESSING",
+            "price": "$299",
+            "category": "AI/ML",
+            "detail": "Master natural language processing. This course covers text processing, sentiment analysis, and practical projects.",
+            "creator": "DR. ROBERT JOHNSON",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "35 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "100 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "TEXT PROCESSING",
+                    "two": "SENTIMENT ANALYSIS",
+                    "three": "LANGUAGE MODELS",
+                    "four": "TEXT CLASSIFICATION",
+                    "five": "PROJECTS"
+                }
+            ],
+            "img": "https://miro.medium.com/v2/resize:fit:1400/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg"
+        },
+        {
+            "id": 24,
+            "name": "COMPUTER VISION WITH PYTHON",
+            "price": "$349",
+            "category": "AI/ML",
+            "detail": "Learn computer vision with Python. This course covers image processing, object detection, and hands-on projects.",
+            "creator": "DR. EMILY DAVIS",
+            "language": "ENGLISH",
+            "cource": [
+                {
+                    "time": "40 hours on-demand video",
+                    "exercise": "Assignments",
+                    "access": "Full lifetime access",
+                    "resources": "110 downloadable resources"
+                }
+            ],
+            "content": [
+                {
+                    "one": "IMAGE PROCESSING",
+                    "two": "OBJECT DETECTION",
+                    "three": "FEATURE EXTRACTION",
+                    "four": "DEEP LEARNING FOR CV",
+                    "five": "PROJECTS"
+                }
+            ],
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwUPKnhIjKvfy8FOdZNKeSMPnAqVxsDJWuyUo9elsm5q3pwTf4qY9t8SyHCkht2sD5oM0&usqp=CAU"
+        }
+    
+    
+]
